@@ -5,7 +5,8 @@
 
 	.component('starWarsPeople', {
 		templateUrl: 'templates/people.html',
-		controller: starWarsPeopleController
+		controller: starWarsPeopleController,
+		controllerAs: 'vm'
 	});
 
 	// starWarsPeopleController.$inject = ['starWarsApi'];	//FOR MINIFICATION

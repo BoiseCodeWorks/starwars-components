@@ -11,7 +11,8 @@
         	people: '^starWarsPeople'
     	},
 		templateUrl: 'templates/person.html',
-		controller: starWarsPersonController
+		controller: starWarsPersonController,
+		controllerAs: 'vm'
 	});
 
 	starWarsPersonController.$inject = [];
