@@ -15,7 +15,7 @@
 		
 		var vm = this;
 
-		vm.$onInit = activate;
+		//vm.$onInit = activate;
         		
 		vm.people = [];
         
